@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📝 TaskFlow - Modern Next.js Todo Application
 
-## Getting Started
+**TaskFlow** is a full-featured, sleek, and intuitive Todo Management Web Application built using Next.js (App Router), Redux Toolkit, Tailwind CSS, and Material UI.
 
-First, run the development server:
+You can try the live web application here: [Live Demo 🚀](https://nextjs-todo-project-nine.vercel.app/)
 
+---
+
+## 📸 Project Screenshots
+
+### 💻 Dev Dashboard & Deployment
+![Vercel Dashboard](https://github.com/user-attachments/assets/660a497b-eb82-4e6d-8d55-4bad9b149b6a)
+
+### 🚀 TaskFlow Live App Screen
+![TaskFlow Preview](https://github.com/user-attachments/assets/14459640-3f54-4252-9dd8-4caf1693b7db)
+
+### ✨ TaskFlow UI & Clean Architecture
+![TaskFlow Full UI](https://github.com/user-attachments/assets/5632b820-a8b7-43be-9e97-29b757b2ee0d)
+
+---
+
+## ✨ Features
+
+* **Full CRUD Operations:** Seamlessly Create, Read, Update, and Delete tasks with an optimized user experience.
+* **State Management:** Efficiently handles global application state utilizing React's **Context API** / **Redux Toolkit** architectures.
+* **Elegant & Responsive UI:** Built with beautiful Tailwind CSS gradients, smooth transitions, and Material UI icons, fully responsive across mobile, tablet, and desktop devices.
+* **Dynamic Client-Side Rendering:** Optimized with `next/dynamic` to ensure a completely stable build, free of hydration mismatches.
+* **Empty State Handling:** Displays a beautifully crafted default view when all tasks are cleared.
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js (App Router - React)
+* **Styling:** Tailwind CSS (Modern Gradient UI & Custom Scrollbars)
+* **Component Library:** Material UI (MUI Icons & Layout Elements)
+* **Package Manager:** pnpm
+* **Hosting Platform:** Vercel
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally on your machine:
+
+1. Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+git clone [https://github.com/KyawZayYa-c/Nextjs-Todo-project.git](https://github.com/KyawZayYa-c/Nextjs-Todo-project.git)
+cd Nextjs-Todo-project
+
+2. Install Dependencies
+Bash
+pnpm install
+3. Run the Development Server
+Bash
 pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 with your browser to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Build for Production
+Bash
+pnpm build
+pnpm start
+🌐 Deployment Links
+GitHub Repository: https://github.com/KyawZayYa-c/Nextjs-Todo-project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Live Production Site: https://nextjs-todo-project-nine.vercel.app/
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Developed with 💙 by Kyaw Zay Ya
